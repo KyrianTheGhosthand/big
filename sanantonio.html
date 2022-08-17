@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>San Antonio</title>
+    <link rel="icon" type="image/x-icon" href="png/questionmark.png" />
+    <style>
+      *{
+        font-family: 'Tahoma';
+        background: yellow;
+      }
+      .h1{
+        text-align: center;
+        font-size: 72px;
+        font-weight: 500;
+        margin: 80px;
+      }
+      .split {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+      }
+      .reset{
+        position:fixed;
+        bottom: 30px;
+        right: 30px;
+        border: 1px solid green;
+        border-radius: 50%;
+        width:50px;
+        height: 50px;
+        background-color: orange;
+        opacity: 100%;
+      }
+      .button{
+        position: fixed;
+        bottom: 44px;
+        right: 48px;
+        font-size: 24px;
+      }
+      .card {
+        position: relative;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        text-decoration: none;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+      .image{
+        width: 100%;
+        height:auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">The City of San Antonio</h1>
+    
+    <div class="split">
+      <li><div class="card"><img src="png/sanantonio1.jpg" alt="San Antonio 1" class="image"></div></li>
+      <li><div class="card"><img src="png/sanantonio2.jpg" alt="San Antonio 2" class="image"></div></li>
+      <li><div class="card"><img src="png/sanantonio3.jpg" alt="San Antonio 3" class="image"></div></li>
+    </div>
+    <div class="description"><p>Founded as a
+        Spanish mission and colonial outpost in 1718, the city became the
+        first chartered civil settlement in present-day Texas in 1731. The
+        area was still part of the Spanish Empire, and later of the
+        Mexican Republic. It is the state's oldest municipality, having
+        celebrated its 300th anniversary on May 1, 2018.</p><br>
+    </div>
+    <div class="reset">
+      <a class="button" href="index.html" >H</span>
+    </div>
+  </body>
+</html>

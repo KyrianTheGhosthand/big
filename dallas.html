@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dallas</title>
+    <link rel="icon" type="image/x-icon" href="png/questionmark.png" />
+    <style>
+      *{
+        font-family: 'Tahoma';
+        background: yellow;
+      }
+      .h1{
+        text-align: center;
+        font-size: 72px;
+        font-weight: 500;
+        margin: 80px;
+      }
+      .split {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+      }
+      .reset{
+        position:fixed;
+        bottom: 30px;
+        right: 30px;
+        border: 1px solid green;
+        border-radius: 50%;
+        width:50px;
+        height: 50px;
+        background-color: orange;
+        opacity: 100%;
+      }
+      .button{
+        position: fixed;
+        bottom: 44px;
+        right: 48px;
+        font-size: 24px;
+      }
+      .card {
+        position: relative;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        text-decoration: none;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+      .image{
+        width: 100%;
+        height:auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">The City of Dallas</h1>
+    
+    <div class="split">
+      <li><div class="card"><img src="png/dallas1.jpg" alt="Dallas 1" class="image"></div></li>
+      <li><div class="card"><img src="png/dallas2.jpg" alt="Dallas 2" class="image"></div></li>
+      <li><div class="card"><img src="png/dallas3.jpg" alt="Dallas 3" class="image"></div></li>
+    </div>
+    <div class="description"><p>It is the largest city in and
+      seat of Dallas County in the U.S. state of Texas with portions
+      extending into Collin, Denton, Kaufman and Rockwall counties. With
+      a 2020 census population of 1,304,379, it is the ninth
+      most-populous city in the U.S. and the third-largest in Texas
+      after Houston and San Antonio.Located in the North Texas
+      region, the city of Dallas is the main core of the largest
+      metropolitan area in the southern United States and the largest
+      inland metropolitan area in the U.S. that lacks any navigable link
+      to the sea.</p><br>
+    </div>
+    <div class="reset">
+      <a class="button" href="index.html" >H</span>
+    </div>
+  </body>
+</html>

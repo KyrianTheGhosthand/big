@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="icon" type="image/x-icon" href="png/questionmark.png" />
+    <style>
+      body {
+        font-family: "Tahoma";
+        background-color: yellow;
+      }
+      .h1 {
+        text-align: center;
+        margin: 80px 80px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+      }
+      .card {
+        position: relative;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        text-decoration: none;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+      .image {
+        width: 100%;
+        height: auto;
+      }
+      .cards .image:hover {
+        transition-delay: 2s;
+        transition-duration: 2s;
+        transition-property: all;
+        transition-timing-function: linear;
+      }
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        border-radius: 25%;
+        background-color: yellowgreen;
+        transform: translateY(100%);
+        transition: 0.2s ease-in-out;
+      }
+      .card:hover .overlay {
+        transform: translateY(0);
+      }
+      .header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        padding: 1em;
+        border-radius: 25%;
+        background-color: yellowgreen;
+        transform: translateY(-100%);
+        transition: 0.2s ease-in-out;
+      }
+      .card:hover .header {
+        transform: translateY(0);
+      }
+      .name {
+        font-size: 1em;
+        margin: 0 0 0.3em;
+        color: #6a515e;
+      }
+      .status {
+        font-size: 0.8em;
+        color: maroon;
+      }
+      .description {
+        padding: 0 2em 2em;
+        margin: 0;
+        color: maroon;
+        font-family: "Tahoma";
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="h1">Demo for a few Texas Cities</h1>
+    <ul class="cards">
+      <li>
+        <div class="card">
+          <a href="dallas.html">
+            <img src="png/dallas.png" alt="Dallas" class="image"
+          /></a>
+          <div class="overlay">
+            <div class="header">
+              <div class="profile">
+                <div class="profile-detail">
+                  <a class="name" href="Dallas.html">Dallas</a>
+                </div>
+              </div>
+            </div>
+            <p class="description">
+              Dallas is the most populous city in the Dallas Fort Worth
+              metroplex, the fourth-largest metropolitan area in the United
+              States at 7.5 million people.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <a href="austin.html">
+            <img src="png/austin.png" alt="Austin" class="image"/></a>
+          <div class="overlay">
+            <div class="header">
+              <div class="profile">
+                <div class="profile-detail">
+                  <a class="name" href="austin.html">Austin</a>
+                </div>
+              </div>
+            </div>
+            <p class="description">
+              Austin is the capital city of the U.S. state of Texas, as well as
+              the seat and largest city of Travis County, with portions
+              extending into Hays and Williamson counties. 
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <a href="houston.html">
+            <img src="png/houston.png" alt="Houston" class="image"/></a>
+          <div class="overlay">
+            <div class="header">
+              <div class="profile">
+                <div class="profile-detail">
+                  <a class="name" href="houston.html">Houston</a>
+                </div>
+              </div>
+            </div>
+            <p class="description">
+              Houston is the most populous city in Texas, the fourth-most
+              populous city in the United States, the most populous city in the
+              Southern United States, and the sixth-most populous in North
+              America, with a population of 2,304,580 in 2020.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <a href="sanantonio.html">
+            <img src="png/sanantonio.png" alt="San Antonio" class="image"
+          /></a>
+          <div class="overlay">
+            <div class="header">
+              <div class="profile">
+                <div class="profile-detail">
+                  <a class="name" href="sanantonio.html">San Antonio</a>
+                </div>
+              </div>
+            </div>
+            <p class="description">
+              San Antonio, officially the City of San Antonio, is the
+              seventh-most populous city in the United States, second largest
+              city in the Southern United States,[9] and the second-most
+              populous city in Texas as well as the 12th most populous city in
+              North America with 1,434,625 residents in 2020.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <a href="galveston.html">
+            <img src="png/galveston.png" alt="Galveston" class="image"
+          /></a>
+          <div class="overlay">
+            <div class="header">
+              <div class="profile">
+                <div class="profile-detail">
+                  <a class="name" href="galveston.html">Galveston</a>
+                </div>
+              </div>
+            </div>
+            <p class="description">
+              Galveston is a coastal resort city and port off the Southeast
+              Texas coast on Galveston Island and Pelican Island in the U.S.
+              state of Texas. 
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <a href="elpaso.html">
+            <img src="png/elpaso.png" alt="El Paso" class="image"
+          /></a>
+          <div class="overlay">
+            <div class="header">
+              <div class="profile">
+                <div class="profile-detail">
+                  <a class="name" href="elpaso.html">El Paso</a>
+                </div>
+              </div>
+            </div>
+            <p class="description">
+              El Paso  is a city in
+              and the county seat of El Paso County in the far southwestern part
+              of the U.S. state of Texas. The 2020 population of the city from
+              the U.S. Census Bureau was 678,815,[4] making it the 23rd-largest
+              city in the United States, the sixth-largest city in Texas, and
+              the second-largest city in the Southwestern United States behind
+              Phoenix, Arizona.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>
