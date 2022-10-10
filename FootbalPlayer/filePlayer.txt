@@ -1,0 +1,1 @@
+{"idPlayer":"CBB","position":"CB","goal":0,"assist":0,"fullname":"Harry Maguire","age":28,"nationality":"England","salary":666666}

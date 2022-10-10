@@ -1,0 +1,1 @@
+{"id":"Atk","strength":44,"speed":23,"attack":41,"defense":23}

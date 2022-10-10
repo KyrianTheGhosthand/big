@@ -1,0 +1,1 @@
+{"nameClub":"MU","footballPlayers":[{"idPlayer":"CBB","position":"CB","goal":0,"assist":0,"fullname":"Harry Maguire","age":28,"nationality":"England","salary":666666}],"coaches":[{"coachtype":"HLV t","idCoach":"1a","experience":3,"fullname":"nva","age":28,"nationality":"vn","salary":2134}]}
